@@ -1,3 +1,5 @@
+import crypto from "crypto";
+
 export default class Ticket {
     constructor(readonly id: string, readonly eventId: string, readonly email: string, public status: string) {
 
